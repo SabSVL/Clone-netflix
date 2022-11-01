@@ -1,0 +1,252 @@
+body{
+    margin: 0 auto;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
+    url("https://assets.nflxext.com/ffe/siteui/vlv3/b321426e-35ae-4661-b899-d63bca17648a/cc0bbe62-b94e-46da-8e43-af3e53f3d1fc/BR-pt-20220926-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+    background-repeat: no-repeat;
+    background-size: 1030px 657px;
+    background-color: black;
+}
+.cabecalho img{
+    margin-left: 40px;
+    width: 170px;
+}
+.cabecalho select{
+    margin-left: 510px;
+    margin-top: 30px;
+    padding-block: 5px;
+    background: transparent;
+    color: white;
+    border-color: white;
+    font-size: 15px;
+}
+.cabecalho option{
+    background-color: darkgrey;
+}
+.lado{
+  display: flex;
+}
+.lado div {
+  display: inline-block;
+}
+.cabecalho button{
+    cursor:pointer;
+    font-size: 15px;
+    background-color: rgb(230, 0, 0);
+    color: white;
+    padding: 9px 20px;
+    margin-left: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.centro{
+    margin-top: 130px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+.centro h1{
+    margin:0 auto;
+    font-size: 49px;
+}
+.centro h2{
+    font-size: 25px;
+    margin-top: 20px;
+    font-weight:100;
+}
+.centro h3{
+    font-size: 20px;
+    margin-top: 35px;
+    font-weight:100;
+}
+.centro h4{
+    position: absolute;
+    font-size: 20px;
+    font-weight:100;
+    top: 2960px;
+    left: 160px;
+
+}
+.centro input{
+    padding: 20px;
+    width:390px;
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 3px;
+    font-size: 15px;
+}
+.centro button{
+    cursor:pointer;
+    padding: 12px 40px 18px;
+    font-size: 25px;
+    background-color: rgb(214, 12, 12);
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+.centro button:hover{
+    background-color: rgb(233, 15, 15);
+
+}
+.divisao1 hr{
+    margin-top: 150px;
+    height: 8px;
+    background:rgb(39, 39, 39);
+    border: none;
+}
+.divisao1 h1{
+    font-size: 45px;
+    margin: 50px;
+    color: white;    
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+.divisao1 h2{
+    color: white;
+    margin: 50px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+.divisao1 img{
+    width: 400px;
+}
+.divisao1 td, .divisao2 td{
+    width: 500px;
+
+}
+
+.divisao2 hr{
+    margin-top: 150px;
+    height: 8px;
+    background:rgb(39, 39, 39);
+    border: none;
+}
+.divisao2 h1{
+    font-size: 45px;
+    margin: 50px;
+    color: white;    
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.divisao2 h2{
+    color: white;
+    margin: 50px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+.divisao2 img{
+    width: 400px;
+}
+.divisao2 hr{
+    margin-top: 30px;
+    height: 8px;
+    background:rgb(39, 39, 39);
+    border: none;
+}
+.divisao3 h1{
+
+    font-size: 50px;
+    margin: 50px;
+    color: white;    
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.divisao3 button{
+    
+    color: white;
+    background-color: rgb(58, 58, 58);
+    font-size: 30px;
+    margin-left: 150px;
+    padding: 20px;
+    width: 700px;
+    text-align: left;
+    
+}
+.collapsible {
+    background: #363636;
+    color: white;
+    cursor: pointer;
+    margin-left: 150px;
+    padding: 20px;
+    width: 700px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 27px;
+}
+
+.collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.content {
+    margin-left: 150px;
+    width: 700px;
+    margin-top: 2px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: rgb(58, 58, 58);
+    margin-bottom: 8px;
+}
+.content p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin: 30px 30px 20px 25px;
+
+}
+.rodape hr{
+        margin-top: 70px;
+        height: 8px;
+        background:rgb(39, 39, 39);
+        border: none;
+}
+.rodape p{
+    margin-top: 70px;
+    margin-left: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:rgb(116, 116, 116);
+}
+
+.rodape table{
+    margin-left: 86px;
+}
+.rodape td{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color:rgb(116, 116, 116);
+    padding: 10px 66px 5px 0px;
+}
+.rodape td:hover, .rodape a:hover{
+    cursor:pointer;
+    text-decoration:underline;
+}
+.rodape select{
+    margin-left: 86px;
+    margin-top: 30px;
+    padding: 13px;
+    background: transparent;
+    color: rgb(129, 129, 129);
+    border-color: rgb(116, 116, 116);
+    font-size: 17px;
+}
+.rodape h5{
+    font-weight: 100;
+    margin-left: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color:rgb(116, 116, 116);
+}

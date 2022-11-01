@@ -1,0 +1,129 @@
+body{
+    margin: 0 auto;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://assets.nflxext.com/ffe/siteui/vlv3/b321426e-35ae-4661-b899-d63bca17648a/cc0bbe62-b94e-46da-8e43-af3e53f3d1fc/BR-pt-20220926-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+    background-repeat: no-repeat;
+    background-size: 1030px 1100px;
+    background-color: black;
+}
+.cabecalho img{
+    margin-left: 30px;
+    width: 200px;
+}
+.container{
+    position: absolute;
+    top: 100px;
+    margin-left: 280px;
+    width: 40%;
+    height: 610px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.747);
+}
+.centro h1{
+    padding: 40px 0px 5px 70px; 
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.centro input{
+    border-radius: 5px;
+    margin:10px 0px 0px 70px; 
+    padding: 15px 10px 15px 20px;
+    font-size: 15px;
+    display: block;
+    margin-bottom: 5px;
+    background: rgb(49, 49, 49);
+    border: none;
+    width: 60%;
+    color: white;
+}
+.centro button{
+    border-radius: 5px;
+    margin:35px 0px 0px 70px; 
+    padding: 15px 10px 15px 20px;
+    width: 67%;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    background: rgb(231, 18, 18);
+    cursor: pointer;
+}
+.lembre{
+    margin-top: 5px;
+    margin-left:65px; 
+    color:rgb(177, 177, 177);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.assinar p{
+    margin-top: 70px;
+    margin-left:68px; 
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  rgb(136, 128, 128);
+}
+.assinar a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.assinar h2{
+    padding-right: 50px;
+    margin-left:68px; 
+    color: rgb(156, 147, 147);
+    font-weight: 100;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rodape{
+    position: absolute;
+    top: 130%;
+    width:100%;
+    height: 220px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.747);
+}
+.rodape p{
+    margin-top: 30px;
+    margin-left: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color:rgb(116, 116, 116);
+}
+
+
+.rodape table{
+    margin-left: 68px;
+}
+.rodape td{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color:rgb(116, 116, 116);
+    padding: 10px 90px 5px 0px;
+}
+.rodape td:hover{
+    text-decoration:underline;
+}
+.rodape select{
+    margin-left: 68px;
+    margin-top: 30px;
+    padding: 13px;
+    background: black;
+    color:rgb(116, 116, 116);
+    border-color: rgb(49, 49, 49);
+    font-size: 13px;
+}
+h3{
+    padding-right: 50px;
+    margin-left:68px; 
+    color: rgb(156, 147, 147);
+    font-weight: 100;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#mais a, #pontos {
+    color: blue;
+    cursor: pointer;
+}
+#mais{
+    display: none;
+}
