@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <title>Netflix Brasil - assistir a séries online, assistir a filmes online </title>
+    <link rel="shortcut icon" href="pastas/imagem/icon.png" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="pastas/css/netflix.css">
+    <script src="pastas/javascript/index.js"></script>
+
+
+    <!--Carousel-->
+    <link rel="stylesheet" href="pastas/css/carousel.css">
+    <script src="pastas/javascript/carousel.js"></script>
+
+
+
+</head>
+
+<body onload="Imagem()">
+
+
+    <div class="lado">
+        <div class="menu">
+            <table>
+                <tr>
+                    <td><a href="perfil.html"><img src="pastas/imagem/net.png"></a></td>
+                    <td>
+                        <h6>Início</h6>
+                    </td>
+                    <td>
+                        <h6>Séries</h6>
+                    </td>
+                    <td>
+                        <h6>Filmes</h6>
+                    </td>
+                    <td>
+                        <h6>Bombando</h6>
+                    </td>
+                    <td>
+                        <h6>Minha lista</h6>
+                    </td>
+                    <td>
+                        <h6>Navegar por idiomas</h6>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="menu2">
+        <table>
+            <tr>
+                <td> <button id="buttonLupa" onclick="Pesquisar()"><img src="pastas/imagem/lupa.png"></button>
+                    <input id="input" type="text" placeholder="Titulos, gente e generos" />
+                </td>
+                <td>
+                    <div class="hm"><img id="sino" src="pastas/imagem/sino.png" />
+                        <div>
+                            <img src="pastas/imagem/lembrete1.jpg">
+                            <h3>Novidade: Dahmer: Canibal Americano,<br> baseado em fatos reais</h3>
+                            <hr>
+                            <img src="pastas/imagem/lembrete2.jpg">
+                            <h3>Lembrete com novidade! Vizinhos, <br> com samba no pe</h3>
+                            <hr>
+                            <img src="pastas/imagem/lembrete3.jpg">
+                            <h3>Assista novamente aos seus momentos <br>favoritos. Confira o que voce assistiu</h3>
+
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div id="aqui"></div>
+                    <div class="pm"><img id="seta" src="pastas/imagem/seta.png" />
+                        <div>
+                            <div id="imgf1"> </div>
+                            <div id="imgf2"> </div>
+                            <div id="imgf3"> </div>
+                            <div id="imgf4"> </div>
+                            <hr id="hh">
+                            <p id="pp">Gerenciar conta</p>
+                            <p>Conta</p>
+                            <p>Central de ajuda</p>
+                            <hr>
+                            <p>Sair da Netflix</p>
+                        </div>
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    </div>
+
+    <div class="filme">
+        <h1>stranger things</h1>
+        <p>Quando um garoto desaparece, a cidade toda participa<br> nas buscas. Mas o que encontram são segredos, forças
+            <br>
+            sobrenaturais e uma menina.
+        </p>
+        <button id="btnAssistir"><img src="pastas/imagem/setaLado.png">Assistir</button>
+        <button id="btnInfo"><img src="pastas/imagem/info.png">Mais informações</button>
+    </div>
+    <!-- Top content -->
+    <br>
+    <div class="tituloFilmes">
+        <p>Filmes de ação</p>
+    </div>
+    <div class="carousel">
+        <button class="arrow-left control" aria-label="Previous image">◀</button>
+        <button class="arrow-right control" aria-label="Next Image">▶</button>
+        <div class="gallery-wrapper">
+            <div class="gallery">
+                <img src="pastas/imagem/filmes/filme1.jpg" alt="Beach Image" class="item current-item">
+                <img src="pastas/imagem/filmes/filme2.jpg" alt="Animal Image" class="item current-item">
+                <img src="pastas/imagem/filmes/filme3.jpg" alt="Street Image" class="item current-item">
+                <img src="pastas/imagem/filmes/filme4.jpg" alt="Street Image" class="item current-item">
+                <img src="pastas/imagem/filmes/filme5.jpg" alt="Street Image" class="item current-item">
+                <img src="pastas/imagem/filmes/filme6.jpg" alt="Street Image" class="item current-item">
+                <img src="pastas/imagem/filmes/filme7.jpg" alt="Zoo Image" class="item current-item">
+                <img src="pastas/imagem/filmes/filme8.jpg" alt="Model Image" class="item current-item">
+            </div>
+        </div>
+    </div>
+    <!-- Top content2 -->
+    <div class="tituloFilmes">
+        <p>Filmes de comedia</p>
+    </div>
+    <div class="carousel">
+        <button class="arrow-left2 control2" aria-label="Previous image">◀</button>
+        <button class="arrow-right2 control2" aria-label="Next Image">▶</button>
+        <div class="gallery-wrapper">
+            <div class="gallery">
+                <img src="pastas/imagem/filmes/filme9.jpg" alt="Beach Image" class="item2 current-item2">
+                <img src="pastas/imagem/filmes/filme10.jpg" alt="Animal Image" class="item2 current-item2">
+                <img src="pastas/imagem/filmes/filme11.jpg" alt="Street Image" class="item2 current-item2">
+                <img src="pastas/imagem/filmes/filme12.jpg" alt="Street Image" class="item2 current-item2">
+                <img src="pastas/imagem/filmes/filme13.jpg" alt="Street Image" class="item2 current-item2">
+                <img src="pastas/imagem/filmes/filme14.jpg" alt="Street Image" class="item2 current-item2">
+                <img src="pastas/imagem/filmes/filme15.jpg" alt="Zoo Image" class="item2 current-item2">
+                <img src="pastas/imagem/filmes/filme16.jpg" alt="Model Image" class="item2 current-item2">
+            </div>
+        </div>
+    </div>
+    <!-- Top content3 -->
+    <div class="tituloFilmes">
+        <p>Top Filmes</p>
+    </div>
+    <div class="carousel">
+        <button class="arrow-left3 control3" aria-label="Previous image">◀</button>
+        <button class="arrow-right3 control3" aria-label="Next Image">▶</button>
+        <div class="gallery-wrapper">
+            <div class="gallery">
+                <img src="pastas/imagem/filmes/top1.png" alt="Beach Image" class="item3 current-item3">
+                <img src="pastas/imagem/filmes/top2.png" alt="Animal Image" class="item3 current-item3">
+                <img src="pastas/imagem/filmes/top3.png" alt="Street Image" class="item3 current-item3">
+                <img src="pastas/imagem/filmes/top4.png" alt="Street Image" class="item3 current-item3">
+                <img src="pastas/imagem/filmes/top5.png" alt="Street Image" class="item3 current-item3">
+                <img src="pastas/imagem/filmes/top6.png" alt="Street Image" class="item3 current-item3">
+                <img src="pastas/imagem/filmes/top7.png" alt="Zoo Image" class="item3 current-item3">
+                <img src="pastas/imagem/filmes/top8.png" alt="Model Image" class="item3 current-item3">
+                <img src="pastas/imagem/filmes/top9.png" alt="Model Image" class="item3 current-item3">
+                <img src="pastas/imagem/filmes/top10.png" alt="Model Image" class="item3 current-item3">
+            </div>
+        </div>
+    </div>
+    <!-- Top content4 -->
+    <div class="tituloFilmes">
+        <p>Filmes Infantis</p>
+    </div>
+    <div class="carousel">
+        <button class="arrow-left4 control4" aria-label="Previous image">◀</button>
+        <button class="arrow-right4 control4" aria-label="Next Image">▶</button>
+        <div class="gallery-wrapper">
+            <div class="gallery">
+                <img src="pastas/imagem/filmes/filme17.jpg" alt="Beach Image" class="item4 current-item4">
+                <img src="pastas/imagem/filmes/filme18.jpg" alt="Animal Image" class="item4 current-item4">
+                <img src="pastas/imagem/filmes/filme19.jpg" alt="Street Image" class="item4 current-item4">
+                <img src="pastas/imagem/filmes/filme20.jpg" alt="Street Image" class="item4 current-item4">
+                <img src="pastas/imagem/filmes/filme21.jpg" alt="Street Image" class="item4 current-item4">
+                <img src="pastas/imagem/filmes/filme22.jpg" alt="Street Image" class="item4 current-item4">
+                <img src="pastas/imagem/filmes/filme23.jpg" alt="Zoo Image" class="item4 current-item4">
+                <img src="pastas/imagem/filmes/filme24.jpg" alt="Model Image" class="item4 current-item4">
+            </div>
+        </div>
+    </div>
+    <!-- Top content5 -->
+    <div class="tituloFilmes">
+        <p>Filmes de suspense</p>
+    </div>
+    <div class="carousel">
+        <button class="arrow-left5 control5" aria-label="Previous image">◀</button>
+        <button class="arrow-right5 control5" aria-label="Next Image">▶</button>
+        <div class="gallery-wrapper">
+            <div class="gallery">
+                <img src="pastas/imagem/filmes/filme25.jpg" alt="Beach Image" class="item5 current-item5">
+                <img src="pastas/imagem/filmes/filme26.png" alt="Animal Image" class="item5 current-item5">
+                <img src="pastas/imagem/filmes/filme27.jpg" alt="Street Image" class="item5 current-item5">
+                <img src="pastas/imagem/filmes/filme28.jpg" alt="Street Image" class="item5 current-item5">
+                <img src="pastas/imagem/filmes/filme29.jpg" alt="Street Image" class="item5 current-item5">
+                <img src="pastas/imagem/filmes/filme30.jpg" alt="Street Image" class="item5 current-item5">
+                <img src="pastas/imagem/filmes/filme31.jpg" alt="Zoo Image" class="item5 current-item5">
+                <img src="pastas/imagem/filmes/filme32.jpeg" alt="Model Image" class="item5 current-item5">
+            </div>
+        </div>
+    </div>
+    <!-- Top content6 -->
+    <div class="tituloFilmes">
+        <p>Filmes dirigidos por mulheres</p>
+    </div>
+    <div class="carousel">
+        <button class="arrow-left6 control6" aria-label="Previous image">◀</button>
+        <button class="arrow-right6 control6" aria-label="Next Image">▶</button>
+        <div class="gallery-wrapper">
+            <div class="gallery">
+                <img src="pastas/imagem/filmes/filme33.jpg" alt="Beach Image" class="item6 current-item6">
+                <img src="pastas/imagem/filmes/filme34.jpg" alt="Animal Image" class="item6 current-item6">
+                <img src="pastas/imagem/filmes/filme35.png" alt="Street Image" class="item6 current-item6">
+                <img src="pastas/imagem/filmes/filme36.jpg" alt="Street Image" class="item6 current-item6">
+                <img src="pastas/imagem/filmes/filme37.jpg" alt="Street Image" class="item6 current-item6">
+                <img src="pastas/imagem/filmes/filme38.jpg" alt="Street Image" class="item6 current-item6">
+                <img src="pastas/imagem/filmes/filme39.jpg" alt="Zoo Image" class="item6 current-item6">
+                <img src="pastas/imagem/filmes/filme40.jpg" alt="Model Image" class="item6 current-item6">
+            </div>
+        </div>
+    </div>
+
+    <!-- Top content7 -->
+    <div class="tituloFilmes">
+        <p>Series dramaticas</p>
+    </div>
+    <div class="carousel">
+        <button class="arrow-left7 control7" aria-label="Previous image">◀</button>
+        <button class="arrow-right7 control7" aria-label="Next Image">▶</button>
+        <div class="gallery-wrapper">
+            <div class="gallery">
+                <img src="pastas/imagem/series/serie1.jpg" alt="Beach Image" class="item7 current-item7">
+                <img src="pastas/imagem/series/serie2.jpeg" alt="Animal Image" class="item7 current-item7">
+                <img src="pastas/imagem/series/serie3.jpg" alt="Street Image" class="item7 current-item7">
+                <img src="pastas/imagem/series/serie4.jpg" alt="Street Image" class="item7 current-item7">
+                <img src="pastas/imagem/series/serie5.jpg" alt="Street Image" class="item7 current-item7">
+                <img src="pastas/imagem/series/serie6.jpg" alt="Street Image" class="item7 current-item7">
+                <img src="pastas/imagem/series/serie7.jpg" alt="Zoo Image" class="item7 current-item7">
+                <img src="pastas/imagem/series/serie8.jpg" alt="Model Image" class="item7 current-item7">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Top content8 -->
+    <div class="tituloFilmes">
+        <p>Series coreanas</p>
+    </div>
+    <div class="carousel">
+        <button class="arrow-left8 control8" aria-label="Previous image">◀</button>
+        <button class="arrow-right8 control8" aria-label="Next Image">▶</button>
+        <div class="gallery-wrapper">
+            <div class="gallery">
+                <img src="pastas/imagem/series/serie9.jpg" alt="Beach Image" class="item8 current-item8">
+                <img src="pastas/imagem/series/serie10.jpg" alt="Animal Image" class="item8 current-item8">
+                <img src="pastas/imagem/series/serie11.jpg" alt="Street Image" class="item8 current-item8">
+                <img src="pastas/imagem/series/serie12.jpg" alt="Street Image" class="item8 current-item8">
+                <img src="pastas/imagem/series/serie13.jpg" alt="Street Image" class="item8 current-item8">
+                <img src="pastas/imagem/series/serie14.jpg" alt="Street Image" class="item8 current-item8">
+                <img src="pastas/imagem/series/serie15.jpg" alt="Zoo Image" class="item8 current-item8">
+                <img src="pastas/imagem/series/serie16.jpg" alt="Model Image" class="item8 current-item8">
+            </div>
+        </div>
+    </div>
+    <!--Rodape-->
+    
+  <div class="rodape">
+    <img src="pastas/imagem/facebook.png">
+    <img src="pastas/imagem/instagram.png">
+    <img id="twitter" src="pastas/imagem/twitter.png">
+    <img id="youtube" src="pastas/imagem/youtube.jpg">
+    <table>
+        <tr>
+        <td>Autodescrição</td>
+        <td>Central de Ajuda</td>
+        <td>Cartão pré-pago</td>
+        <td>Impresa</td>
+      </tr>
+      <tr>
+        <td>Relações com investidores</td>
+        <td>Carreiras</td>
+        <td>Termos de uso</td>
+        <td>Privacidade</td>
+      </tr>
+      <tr>
+        <td>Avisos legais</td>
+        <td>Preferências de cookies</td>
+        <td>Informações corporativas</td>
+        <td>Entre em contato</td>
+      </tr>
+      <tr>
+        <td>Informações corporativas</td>
+        <td>Entre em contato</td>
+        <td>Teste de velocidade</td>
+        <td>Avisos legais</td>
+      </tr>
+    </table>
+    <button>Codigo de serviço</button>
+    <h5>© 1997-2022 Netflix, Inc.  {9eb4ea7c-6c47-4d9b-9ce2-7b8e6bd678d0}</h5>
+  </div>
+
+
+
+</body>
+
+</html>
